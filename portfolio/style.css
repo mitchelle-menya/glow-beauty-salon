@@ -1,0 +1,198 @@
+body {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+  background-color: white;
+  margin: 0;
+}
+
+header {
+  background-color: white;
+  color: rgb(234, 57, 116);
+  padding: 40px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+
+}
+.services{
+  text-align: left;
+  margin: 5px;
+  padding: 20px;
+  background-color: #fce4ec;
+  max-width: 300px;
+  border-radius: 10px;
+}
+.WhatsApp {
+  display: inline-block;
+  background-color: green;
+  color: white;
+  padding: 12px 25px;
+  border-radius: 20px;
+  text-decoration: none;
+  margin-top: 10px;
+}
+.WhatsApp:hover{
+  color: grey;
+  transform: scale(1.05);
+}
+
+button {
+  display: inline-block;
+  background-color: rgb(9, 134, 59);
+  color: white;
+  padding: 12px 25px;
+  border-radius: 20px;
+  text-decoration: wavy;
+  margin-top: 10px;
+}
+button:hover{
+  color: grey;
+  transform: scale(1.05);
+}
+
+footer {
+  background-color: rgb(234, 57, 116);
+  padding: 50px;
+  border-radius: 20px;
+  margin-top: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  margin: 0 15px;
+  color: white;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  color: #f4a6c1;
+}
+.Location p{
+  text-align: center;
+  margin: 40px;
+  line-height: 1.8;
+  
+}
+
+.address {
+  margin-top: 30px;
+  padding: 20px;
+  background: #f8f1f4;
+  border-radius: 10px;
+}
+
+.address h3 {
+  margin-bottom: 10px;
+}
+
+.reviews{
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.reviews h2{
+  color: black;
+  font-size: 30px;
+}
+
+.intro{
+  max-width: 650px;
+  margin: 15px auto 30px;
+  line-height: 1.7;
+}
+
+.review-container{
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+.review-card{
+  background-color: white;
+  padding: 25px;
+  width: 260px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  text-align: left;
+}
+
+.review-card h3{
+  color: black;
+}
+
+.stars{
+  color: #f5a623;
+  font-size: 20px;
+}
+.choose-us{
+  margin-top: 50px;
+}
+.choose-us ul{
+  display: inline-block;
+  text-align: left;
+  line-height: 2;
+}
+.review-button{
+  margin-top: 40px;
+  padding: 30px;
+  background-color: #fce4ec;
+  border-radius: 10px;
+}
+.review-button a{
+  display: inline-block;
+  background-color: #c2185b;
+  color: white;
+  padding: 12px 25px;
+  text-decoration: none;
+  border-radius: 6px;
+  margin-top: 10px;
+}
+.review-button a:hover{
+  background-color: #880e4f;
+  transform: scale(1.05);
+}
+
+.gallery{
+  padding: 40px 25px;
+  text-align: center;
+}
+.gallery h2{
+  color: black;
+  font-size: 30px;
+}
+.gallery-container{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 20px;
+  margin-top: 30px;
+}
+.gallery-card{
+  text-align: center;
+}
+.gallery-card img{
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 4px;
+  margin: 5px;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+.view-more{
+  margin-top: 35px;
+  text-align: center;
+}
+.view-more a{
+  display: inline-block;
+  background-color: #c2185b;
+  color: white;
+  padding: 12px 30px;
+  text-decoration: none;
+  border-radius: 25px;
+  font-size: 16px;
+  transition: 0.3s;
+}
+.view-more a:hover{
+  background-color: #880e4f;
+  transform: scale(1.05);
+}
